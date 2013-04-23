@@ -1,7 +1,7 @@
 usr/share/locale
 usr/share/compiz/*.xml
 usr/share/compiz/filters
-usr/share/compiz/Mate
+usr/share/compiz/Default
 usr/share/compiz/Oxygen
 usr/share/mateconf/schemas/compiz-*.schemas
 usr/lib/compiz/*.so

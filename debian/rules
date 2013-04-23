@@ -7,11 +7,8 @@
 export DEB_BUILD_HARDENING=1
 
 PACKAGE := $(shell dh_listpackages)
-ROOTDIR := $(CURDIR)
 DEBDIR  := $(CURDIR)/debian
 PKGDIR  := $(DEBDIR)/$(PACKAGE)
-MATESRC := $(DEBDIR)/mate_files
-MATEDIR := $(ROOTDIR)/images/Mate
 
 # Detect which package is provided by compiz-core:
 COMPIZCORE_DEPENDS := $(shell dpkg-query --showformat='$${Provides}\n' -W compiz-core)
@@ -28,9 +25,6 @@ COMPIZCORE_DEPENDS := $(shell dpkg-query --showformat='$${Provides}\n' -W compiz
 override_dh_autoreconf:
 	# Prevent from accidental breakage, early in the build process:
 	if [ -z "$(COMPIZCORE_DEPENDS)" ]; then echo 'Broken compiz-core ABI detection'; exit 1; fi
-	[ -d "$(MATEDIR)" ]		|| mkdir -p $(MATEDIR)
-	[ -f "$(MATEDIR)/overlay.png" ]	|| cp $(MATESRC)/overlay.png $(MATEDIR)/overlay.png
-	[ -f "$(MATEDIR)/mask.png" ]	|| cp $(MATESRC)/mask.png  $(MATEDIR)/mask.png
 	dh_autoreconf
 
 override_dh_auto_configure:
@@ -51,7 +45,6 @@ override_dh_install:
 	rm -f $(PKGDIR)/usr/lib/compiz/libkdecompat.so
 	# clean up some upstream cruft
 	find $(PKGDIR) -type f -name '*.la' -exec rm -f {} ';'
-	# install matecompat icon
 
 override_dh_gencontrol:
 	dh_gencontrol -- -Vcompizcore:Depends=$(COMPIZCORE_DEPENDS)
