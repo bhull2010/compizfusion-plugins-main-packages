@@ -1,3 +1,11 @@
+compizfusion-plugins-main (0.8.8-2) unstable; urgency=low
+
+  * Renamed package to compizfusion-plugins-main
+  * Removed dependency on mate-conf/gconf
+  * Switched package to 3.0 (native) format
+
+ -- Brent Hull <bhull2010@live.com>  Mon, 22 Apr 2013 22:51:54 -0400
+
 compiz-plugins-main (0.8.8-1) unstable; urgency=low
 
   * new upstream release, non-maintainer fork

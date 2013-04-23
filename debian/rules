@@ -13,11 +13,6 @@ PKGDIR  := $(DEBDIR)/$(PACKAGE)
 # Detect which package is provided by compiz-core:
 COMPIZCORE_DEPENDS := $(shell dpkg-query --showformat='$${Provides}\n' -W compiz-core)
 
-# autoconf cruft
-#AUTOFOO_DELETE:=aclocal.m4 config.guess config.h.in config.sub configure \
-#                depcomp install-sh intltool-extract.in intltool-merge.in \
-#                intltool-update.in ltmain.sh missing mkinstalldirs
-
 
 %:
 	dh $@ --with autoreconf
@@ -35,7 +30,6 @@ override_dh_clean:
 	[ ! -f Makefile ] || $(MAKE) distclean
 	# clean up extra automake cruft
 	find . -type f -name Makefile.in -exec rm -f {} ';'
-#	rm -f $(AUTOFOO_DELETE)
 	dh_clean 
 
 override_dh_install:
