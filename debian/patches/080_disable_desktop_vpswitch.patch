@@ -1,0 +1,19 @@
+Description: Disable switching between desktop with mousewheel over desktop background as this option is too easily launched by mistake
+Bug: https://bugs.launchpad.net/bugs/414170 
+
+--- a/metadata/vpswitch.xml.in
++++ b/metadata/vpswitch.xml.in
+@@ -88,13 +88,11 @@
+ 				<option name="next_button" type="button">
+ 					<_short>Move Next</_short>
+ 					<_long>Move to the next viewport</_long>
+-					<default>Button5</default>
+ 					<internal/>
+ 				</option>
+ 				<option name="prev_button" type="button">
+ 					<_short>Move Prev</_short>
+ 					<_long>Move to the previous viewport</_long>
+-					<default>Button4</default>
+ 					<internal/>
+ 				</option>
+ 				<option name="initiate_button" type="button">

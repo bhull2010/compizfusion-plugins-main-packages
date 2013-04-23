@@ -1,0 +1,1006 @@
+Description: pot files migration from gconf to mate compatability
+Author: Jasmine Hassan <jasmine.aura@gmail.com>
+Origin: other, lmde
+Last-Updated: 2012-10-08
+--- a/po/ar.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/ar.po	2012-10-05 14:29:58.309479936 +0200
+@@ -3212,7 +3212,7 @@
+ msgid "Debug"
+ msgstr ""
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3576,7 +3576,7 @@
+ msgid "Color of text on resize popup."
+ msgstr ""
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5593,7 +5593,7 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr ""
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr ""
+ 
+ msgid "Notification Daemon Fix"
+--- a/po/bn.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/bn.po	2012-10-05 14:29:58.010472931 +0200
+@@ -3181,7 +3181,7 @@
+ msgid "Debug"
+ msgstr ""
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3545,7 +3545,7 @@
+ msgid "Color of text on resize popup."
+ msgstr ""
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5557,7 +5557,7 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr ""
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr ""
+ 
+ msgid "Notification Daemon Fix"
+--- a/po/ca.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/ca.po	2012-10-05 14:29:58.894493596 +0200
+@@ -3361,7 +3361,7 @@
+ msgid "Debug"
+ msgstr "Depurar"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3728,7 +3728,7 @@
+ msgid "Color of text on resize popup."
+ msgstr ""
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5855,7 +5855,7 @@
+ "Fer que les aplicacions antigues i Wine puguin anar a pantalla complerta "
+ "correctament."
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr ""
+ 
+ msgid "Notification Daemon Fix"
+--- a/po/cs.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/cs.po	2012-10-05 14:29:58.925494322 +0200
+@@ -3379,7 +3379,7 @@
+ msgid "Debug"
+ msgstr "Ladění"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3770,7 +3770,7 @@
+ msgid "Color of text on resize popup."
+ msgstr ""
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5973,7 +5973,7 @@
+ msgstr ""
+ 
+ #, fuzzy
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr "Obcházení chyb v serverech"
+ 
+ #, fuzzy
+--- a/po/de.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/de.po	2012-10-05 14:29:59.226501374 +0200
+@@ -3464,7 +3464,7 @@
+ msgid "Debug"
+ msgstr "Fehlersuche"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3864,7 +3864,7 @@
+ msgid "Color of text on resize popup."
+ msgstr "Textfarbe"
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr "Zeigt Informationen beim Skalieren von Fenstern an"
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -6095,8 +6095,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Wine und Legacy Anwendungen im Vollbildmodus betreiben."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Workarounds wie Metacity"
++msgid "Marco-like workarounds."
++msgstr "Workarounds wie Marco"
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Workaround für Fenster von 'Notification Daemon'"
+--- a/po/el.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/el.po	2012-10-05 14:29:59.231501492 +0200
+@@ -3384,8 +3384,8 @@
+ msgid "Debug"
+ msgstr "Αποσφαλμάτωση"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Εμφάνιση σφαλμάτων και άλλων μηνυμάτων με τη χρήση του libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Εμφάνιση σφαλμάτων και άλλων μηνυμάτων με τη χρήση του libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Σφάλμα"
+@@ -3777,8 +3777,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Χρώμα κειμένου στην μορφοποίηση popup."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Εμφάνιση πληροφοριών στην μορφοποίηση παρόμοια του metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Εμφάνιση πληροφοριών στην μορφοποίηση παρόμοια του marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Χρόνος ξεθωριάσματος (σε ms) για το παράθυρο popup"
+@@ -5877,7 +5877,7 @@
+ msgstr ""
+ "Κάνε τις Wine και παραδοσιακές εφαρμογές να γίνονται πλήρους οθόνης σωστά."
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr "Metacito-ειδεις μοντίφες."
+ 
+ msgid "Notification Daemon Fix"
+--- a/po/en_GB.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/en_GB.po	2012-10-05 14:29:58.841492354 +0200
+@@ -3343,8 +3343,8 @@
+ msgid "Debug"
+ msgstr "Debug"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Display errors and other messages using libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Error"
+@@ -3736,8 +3736,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Colour of text on resize popup."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Display info on resize similar to marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Fade time (in ms) for popup window"
+@@ -5832,8 +5832,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Make Wine and legacy applications fullscreen properly."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity-like workarounds."
++msgid "Marco-like workarounds."
++msgstr "Marco-like workarounds."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Notification Daemon Fix"
+--- a/po/es.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/es.po	2012-10-05 14:29:59.297503038 +0200
+@@ -3538,8 +3538,8 @@
+ msgid "Debug"
+ msgstr "Depurar"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Mostrar errores y otros mensajes al usar libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Mostrar errores y otros mensajes al usar libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Error"
+@@ -3951,8 +3951,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Color del suelo (lejos)."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Mostrar información en el redimensionado similar a metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Mostrar información en el redimensionado similar a marco"
+ 
+ #, fuzzy
+ msgid "Fade time (in ms) for popup window"
+@@ -6119,8 +6119,8 @@
+ 
+ # This translation is wrong, i'm working for a better one
+ #, fuzzy
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity como solución"
++msgid "Marco-like workarounds."
++msgstr "Marco como solución"
+ 
+ # same as below
+ #, fuzzy
+--- a/po/eu.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/eu.po	2012-10-05 14:29:58.599486684 +0200
+@@ -3314,8 +3314,8 @@
+ msgid "Debug"
+ msgstr "Araztu"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "libnotify erabiliz erakutsi erroreak eta beste mezuak."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "libmatenotify erabiliz erakutsi erroreak eta beste mezuak."
+ 
+ msgid "Error"
+ msgstr "Errorea"
+@@ -3688,7 +3688,7 @@
+ msgid "Color of text on resize popup."
+ msgstr ""
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5708,7 +5708,7 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr ""
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr ""
+ 
+ msgid "Notification Daemon Fix"
+--- a/po/fa.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/fa.po	2012-10-05 14:29:57.535461803 +0200
+@@ -3127,7 +3127,7 @@
+ msgid "Debug"
+ msgstr ""
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3490,7 +3490,7 @@
+ msgid "Color of text on resize popup."
+ msgstr ""
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5462,7 +5462,7 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr ""
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr ""
+ 
+ msgid "Notification Daemon Fix"
+--- a/po/fi.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/fi.po	2012-10-05 14:29:58.800491394 +0200
+@@ -3324,8 +3324,8 @@
+ msgid "Debug"
+ msgstr "Virheenjäljitys"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Näytä virheet ja muut viestit käyttäen libnotify-sovellusta."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Näytä virheet ja muut viestit käyttäen libmatenotify-sovellusta."
+ 
+ msgid "Error"
+ msgstr "Virhe"
+@@ -3715,8 +3715,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Koonmuutoksen ponnahdusviestin tekstin väri."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Näytä ilmoitus kokoa muuttaessa samalla tavalla kuin Metacity:ssä"
++msgid "Display info on resize similar to marco"
++msgstr "Näytä ilmoitus kokoa muuttaessa samalla tavalla kuin Marco:ssä"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Häivytyksen aika (millisekunneissa) ponnahdusviestiin"
+@@ -5715,8 +5715,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Laita Wine ja vanhempien sovellusten kokonäyttötila toimimaan oikein."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacityn kaltaiset kiertokeinot."
++msgid "Marco-like workarounds."
++msgstr "Marcon kaltaiset kiertokeinot."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Ilmoitus taustaprosessin korjaus"
+--- a/po/fr.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/fr.po	2012-10-05 14:29:59.169500039 +0200
+@@ -3438,8 +3438,8 @@
+ msgid "Debug"
+ msgstr "Déboggage"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Afficher les erreurs et autres messages en utilisant libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Afficher les erreurs et autres messages en utilisant libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Erreur"
+@@ -3838,8 +3838,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Couleur du texte de l'indicateur de redimensionnement."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Afficher des informations sur le redimensionnment comme Metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Afficher des informations sur le redimensionnment comme Marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Temps de fondu (en ms) pour l'indicateur"
+@@ -5950,7 +5950,7 @@
+ "viewports."
+ msgstr ""
+ "Rendre adhésives les fenêtres \"Sur tous les Bureaux\". Les fenêtres "
+-"Adhésives sont visibles sur tous les \"Viewports\" (Pour Gnome et KDE, 1 "
++"Adhésives sont visibles sur tous les \"Viewports\" (Pour Mate et KDE, 1 "
+ "Viewport = 1 Bureau, mais pas pour Compiz... Ce problème devrait être "
+ "corrigé dans une prochaine version)"
+ 
+@@ -5960,8 +5960,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Rendre correctement les applications Wine et natives en plein écran."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Solutions alternatives Metacity-like"
++msgid "Marco-like workarounds."
++msgstr "Solutions alternatives Marco-like"
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Correction du Démon de Notification"
+--- a/po/gl.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/gl.po	2012-10-05 14:29:57.737466535 +0200
+@@ -2969,8 +2969,8 @@
+ msgid "Debug"
+ msgstr "Depuración"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Mostrar erros e outras mensaxes empregando libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Mostrar erros e outras mensaxes empregando libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Erro"
+@@ -3305,8 +3305,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Cor do texto do consello de redimensionado."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Mostrar información acerca do redimensionado en metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Mostrar información acerca do redimensionado en marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Tempo de desvanecemento (en ms) para as xanelas popup"
+@@ -5193,8 +5193,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Facer que as aplicacións de Wine e as aplicacións normais entren no modo pantalla completa correctamente."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Correccións para que algúns programas funcionen co xestor de xanelas dognome (metacity)"
++msgid "Marco-like workarounds."
++msgstr "Correccións para que algúns programas funcionen co xestor de xanelas domate (marco)"
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Corrección para o demonio de notificacións"
+--- a/po/gu.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/gu.po	2012-10-05 14:29:59.129499102 +0200
+@@ -3365,7 +3365,7 @@
+ msgid "Debug"
+ msgstr "ડિબગ"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3756,7 +3756,7 @@
+ msgid "Color of text on resize popup."
+ msgstr "પોપઅપનું માપ બદલવા પર લખાણનો રંગ."
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr "મેટાસીટીને સરખું માપ બદલવા પર ડિસ્પ્લે જાણકારી"
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5894,7 +5894,7 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Wine અને લીગસી કાર્યક્રમો પૂર્ણસ્ક્રીન યોગ્ય રીતે બનાવો."
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr "મેટાસીટી-જેવા ઉકેલો."
+ 
+ msgid "Notification Daemon Fix"
+--- a/po/he.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/he.po	2012-10-05 14:29:58.678488536 +0200
+@@ -3282,8 +3282,8 @@
+ msgid "Debug"
+ msgstr "דיבוג"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "מציג הודעות שגיאה ומסרים אחרים באמצעות libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "מציג הודעות שגיאה ומסרים אחרים באמצעות libmatenotify."
+ 
+ msgid "Error"
+ msgstr "שגיאה"
+@@ -3662,8 +3662,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "צבע הטקסט בחלונית שינוי הגודל."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "הצג מידע אודות שינוי גודל בדומה ל-metacity"
++msgid "Display info on resize similar to marco"
++msgstr "הצג מידע אודות שינוי גודל בדומה ל-marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "משך דהיית החלונית (במילישניות)"
+@@ -5685,8 +5685,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "הצג כראוי במסך מלא יישומים מיושנים ויישומי Wine."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "תיקונים דמויי Metacity."
++msgid "Marco-like workarounds."
++msgstr "תיקונים דמויי Marco."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "תיקון לדיימון ההודעות"
+--- a/po/hi.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/hi.po	2012-10-05 14:29:59.152499641 +0200
+@@ -3361,7 +3361,7 @@
+ msgid "Debug"
+ msgstr "डिबग"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3751,7 +3751,7 @@
+ msgid "Color of text on resize popup."
+ msgstr "पॉपअप को फिर आकार देने पर पाठ का रंग."
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr "मेटासिटी के समान फिर आकार पर प्रदर्शन सूचना"
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5881,7 +5881,7 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "वाइन व पुरातन अनुप्रयोग को पूर्णस्क्रीन ठीक से बनाएं."
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr "मेटासिटी के समान समाधान."
+ 
+ msgid "Notification Daemon Fix"
+--- a/po/hu.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/hu.po	2012-10-05 14:29:58.971495400 +0200
+@@ -3284,9 +3284,9 @@
+ msgid "Debug"
+ msgstr "Hibakeresés"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+-"Hibaüzenetek és egyéb információk megjelenítése a libnotify könyvtár "
++"Hibaüzenetek és egyéb információk megjelenítése a libmatenotify könyvtár "
+ "segítségével."
+ 
+ msgid "Error"
+@@ -3687,8 +3687,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "A szöveg színe az átméretező ablakon."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Ablakátméretezési információk megjelenítése a Metacity módján"
++msgid "Display info on resize similar to marco"
++msgstr "Ablakátméretezési információk megjelenítése a Marco módján"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "A felbukkanó ablakok áttűnési ideje (ezredmásodpercben megadva)"
+@@ -5754,8 +5754,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Teljes képernyős Wine és örökölt alkalmazások helyes megjelenítése."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity témához szánt hibajavítások"
++msgid "Marco-like workarounds."
++msgstr "Marco témához szánt hibajavítások"
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Értesítés démon javítása"
+--- a/po/it.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/it.po	2012-10-05 14:29:59.292502921 +0200
+@@ -3554,8 +3554,8 @@
+ msgid "Debug"
+ msgstr "Debug"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Mostra errori e altri messaggi utilizzando libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Mostra errori e altri messaggi utilizzando libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Errore"
+@@ -3969,10 +3969,10 @@
+ msgid "Color of text on resize popup."
+ msgstr "Colore del testo nella finestra del ridimensionamento."
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ "Mostra informazione al ridimensionamento, in maniera simile a quella di "
+-"Metacity"
++"Marco"
+ 
+ # (ndt) suggerimento
+ msgid "Fade time (in ms) for popup window"
+@@ -6188,8 +6188,8 @@
+ "Fa in modo che le applicazioni Wine e quelle più datate funzionino "
+ "correttamente a schermo intero."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Alternative stile Metacity."
++msgid "Marco-like workarounds."
++msgstr "Alternative stile Marco."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Correzione demone di notifica"
+--- a/po/ja.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/ja.po	2012-10-05 14:29:57.177453415 +0200
+@@ -2965,8 +2965,8 @@
+ msgid "Debug"
+ msgstr "デバグ"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "libnotify を使用して、エラーやその他のメッセージを表示"
++msgid "Display errors and other messages using libmatenotify."
++msgstr "libmatenotify を使用して、エラーやその他のメッセージを表示"
+ 
+ msgid "Error"
+ msgstr "エラー"
+@@ -3301,8 +3301,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "サイズ変更ポップアップのテキストの色"
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Metacity に似たサイズ変更情報の表示"
++msgid "Display info on resize similar to marco"
++msgstr "Marco に似たサイズ変更情報の表示"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "ポップアップウィンドウのフェード時間（ミリ秒）"
+@@ -5189,8 +5189,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Wine とレガシーアプリケーションを全画面表示で起動するときの設定"
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity のような次善策"
++msgid "Marco-like workarounds."
++msgstr "Marco のような次善策"
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "通知デーモンの修正"
+--- a/po/ko.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/ko.po	2012-10-05 14:29:58.332480475 +0200
+@@ -3203,8 +3203,8 @@
+ msgid "Debug"
+ msgstr "디버그"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "libnotify를 이용하여 에러와 다른 메세지들을 출력함."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "libmatenotify를 이용하여 에러와 다른 메세지들을 출력함."
+ 
+ msgid "Error"
+ msgstr "에러"
+@@ -3582,8 +3582,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "크기 변경 팝업의 글자 색"
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Metacity처럼 크기 변경할 때 정보를 보여줍니다."
++msgid "Display info on resize similar to marco"
++msgstr "Marco처럼 크기 변경할 때 정보를 보여줍니다."
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "팝업 창의 페이드 시간 (밀리세컨드 단위)"
+@@ -5596,8 +5596,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Wine이나 오래된 응용 프로그램의 전체 화면을 제대로 만들어줍니다."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity 같은 문제 회피 방법"
++msgid "Marco-like workarounds."
++msgstr "Marco 같은 문제 회피 방법"
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "알림 데몬 고침"
+--- a/po/nb.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/nb.po	2012-10-05 14:29:59.103498493 +0200
+@@ -3381,8 +3381,8 @@
+ msgid "Debug"
+ msgstr "Feilsøk"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Vis feil og andre beskjeder ved hjelp av libnotify"
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Vis feil og andre beskjeder ved hjelp av libmatenotify"
+ 
+ msgid "Error"
+ msgstr "Feil"
+@@ -3771,8 +3771,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Farge på tekst i størrelseendrings-oppsprett"
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Vis info ved endre størrelse, lignende Metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Vis info ved endre størrelse, lignende Marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Inn-/uttoningstid for oppsprettvindu"
+@@ -5885,8 +5885,8 @@
+ msgstr ""
+ "La Wine-programmer og gamle programmer bruke fullskjermmodus ordentlig."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity-lignende omveier."
++msgid "Marco-like workarounds."
++msgstr "Marco-lignende omveier."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Korreksjon for varslingsnisse"
+@@ -6093,14 +6093,14 @@
+ #~ msgstr "Flislegg eller strekk"
+ 
+ #~ msgid ""
+-#~ "Timeout in seconds before hiding the notificationUses libnotify to "
++#~ "Timeout in seconds before hiding the notificationUses libmatenotify to "
+ #~ "display errorsCorner BevellingCreate MipmapsDisable Caps for Inside "
+ #~ "CubeDisables the drawing of the cube caps when the inside cube mode is "
+ #~ "set.Draw Window BacksidesEnables the drawing of the backside of windows."
+ #~ "This will create mipmaps which improve overall texture appearence, and "
+ #~ "reduce jagged edges.Window width"
+ #~ msgstr ""
+-#~ "Pause i sekunder før notisen gjemmesBruk libnotify for å vise "
++#~ "Pause i sekunder før notisen gjemmesBruk libmatenotify for å vise "
+ #~ "feilSkråstilling av hjørnerLag MIP-kartSlå av luer for Innsiden av kuben "
+ #~ "Slår av tegning av kubeluer når modus for innside av kuben er "
+ #~ "aktivertTegn vinduenes baksiderAktiverer tegning av baksider på "
+--- a/po/nl.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/nl.po	2012-10-05 14:29:59.243501773 +0200
+@@ -3432,8 +3432,8 @@
+ msgid "Debug"
+ msgstr "Debug"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Toon fouten en andere berichten met gebruik van libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Toon fouten en andere berichten met gebruik van libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Fout"
+@@ -3828,8 +3828,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Kleur van de tekst bĳ grootte wĳzigen popup."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Toon info bĳ grootte wĳzigen vergelĳkbaar met metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Toon info bĳ grootte wĳzigen vergelĳkbaar met marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Vervaag tĳd (in ms) voor popup venster"
+@@ -5992,8 +5992,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Maak Wine en legacy vensters op de juiste manier volledig scherm."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity-achtige workarounds."
++msgid "Marco-like workarounds."
++msgstr "Marco-achtige workarounds."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Fix voor notificatie daemon"
+--- a/po/pl.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/pl.po	2012-10-05 14:29:59.238501656 +0200
+@@ -3375,8 +3375,8 @@
+ msgid "Debug"
+ msgstr "Debugowanie"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Wyświetlaj błędy i inne powiadomienia używając libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Wyświetlaj błędy i inne powiadomienia używając libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Błąd"
+@@ -3405,7 +3405,7 @@
+ "default and 0 for indefinite"
+ msgstr ""
+ "Czas przed zamknięciem powiadomienia (w sekundach), ustaw -1 dla wartości "
+-"domyślnej, 0 dla czasu nieograniczonego."
++"domyślnej, 0 dla czasu nieomraniczonego."
+ 
+ msgid "Warning"
+ msgstr "Ostrzeżenie"
+@@ -3776,8 +3776,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Kolor teksu w dymku wyświetlającym rozmiar"
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Pokazuj okno o rozmiarze okna podobny jak w metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Pokazuj okno o rozmiarze okna podobny jak w marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Czas zanikania (w ms) dymka z rozmiarem"
+@@ -5930,8 +5930,8 @@
+ "Spraw, by okna Wine i starszych aplikacji działały właściwie w trybie "
+ "pełnoekranowym."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Obejścia problemów podobne jak w Metacity."
++msgid "Marco-like workarounds."
++msgstr "Obejścia problemów podobne jak w Marco."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Poprawka demona powiadomień"
+--- a/po/pt_BR.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/pt_BR.po	2012-10-05 14:29:59.256502078 +0200
+@@ -12,7 +12,7 @@
+ "POT-Creation-Date: 2009-03-24 08:11+0100\n"
+ "PO-Revision-Date: 2008-04-18 17:28+0200\n"
+ "Last-Translator: Arthur Rodrigues Araruna <araruna@gmail.com>\n"
+-"Language-Team: Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
++"Language-Team: Portuguese <mate-l10n-br@listas.cipsga.org.br>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -3443,7 +3443,7 @@
+ msgid "Debug"
+ msgstr "Depuração"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3846,8 +3846,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Cor do texto no popup de redimensionamento."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Mostrar informação sobre o redimensionamento como no metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Mostrar informação sobre o redimensionamento como no marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Tempo de desvanecimento (em ms) para as janelas popup"
+@@ -6041,10 +6041,10 @@
+ "Fazer com que aplicações mais antigas e Wine funcionem como esperado no modo "
+ "de tela inteira."
+ 
+-msgid "Metacity-like workarounds."
++msgid "Marco-like workarounds."
+ msgstr ""
+ "Correções para alguns programas funcionarem como no gerenciador de janelas "
+-"do gnome (metacity)"
++"do mate (marco)"
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Correção para o daemon de notificações"
+--- a/po/pt.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/pt.po	2012-10-05 14:29:56.685441889 +0200
+@@ -2675,8 +2675,8 @@
+ msgid "Debug"
+ msgstr "Depuração"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Mostrar erros e outras mensagens através de libnotify."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Mostrar erros e outras mensagens através de libmatenotify."
+ 
+ msgid "Error"
+ msgstr "Erro"
+@@ -3011,8 +3011,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Cor do texto no popup de redimensionamento."
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Mostrar informação acerca do redimensionamento como metacity"
++msgid "Display info on resize similar to marco"
++msgstr "Mostrar informação acerca do redimensionamento como marco"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Tempo de desvanecimento (em ms) para as janelas popup"
+@@ -4893,8 +4893,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Fazer com que aplicações mais antigas e Wine funcionem como esperado em modo ecrã inteiro."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Correcções para alguns programas funcionarem como no metacity."
++msgid "Marco-like workarounds."
++msgstr "Correcções para alguns programas funcionarem como no marco."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Correcção para o daemon de notificações"
+--- a/po/ru.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/ru.po	2012-10-05 14:29:59.217501164 +0200
+@@ -3501,7 +3501,7 @@
+ msgid "Debug"
+ msgstr "Отладка"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3907,7 +3907,7 @@
+ msgid "Color of text on resize popup."
+ msgstr ""
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -6204,8 +6204,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr ""
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Исправления в Metacity."
++msgid "Marco-like workarounds."
++msgstr "Исправления в Marco."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Исправление демонов уведомлений"
+--- a/po/sv.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/sv.po	2012-10-05 14:29:59.113498727 +0200
+@@ -3347,8 +3347,8 @@
+ msgid "Debug"
+ msgstr "Debug"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "Använd libnotify för att visa fel och andra meddelanden."
++msgid "Display errors and other messages using libmatenotify."
++msgstr "Använd libmatenotify för att visa fel och andra meddelanden."
+ 
+ msgid "Error"
+ msgstr "Fel"
+@@ -3742,8 +3742,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "Färg för texten på popup för storleksändring"
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "Visa info liknade metacity under storleksändring"
++msgid "Display info on resize similar to marco"
++msgstr "Visa info liknade marco under storleksändring"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "Toningstid (i ms) för popupfönster"
+@@ -5829,8 +5829,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "Få wine och äldre program att använda helskärm korrekt."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity-liknande problemlösningar."
++msgid "Marco-like workarounds."
++msgstr "Marco-liknande problemlösningar."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Korrigering av notifikations-daemon"
+--- a/po/tr.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/tr.po	2012-10-05 14:29:58.767490621 +0200
+@@ -3297,7 +3297,7 @@
+ msgid "Debug"
+ msgstr "Hata Ayıklama"
+ 
+-msgid "Display errors and other messages using libnotify."
++msgid "Display errors and other messages using libmatenotify."
+ msgstr ""
+ 
+ msgid "Error"
+@@ -3671,7 +3671,7 @@
+ msgid "Color of text on resize popup."
+ msgstr ""
+ 
+-msgid "Display info on resize similar to metacity"
++msgid "Display info on resize similar to marco"
+ msgstr ""
+ 
+ msgid "Fade time (in ms) for popup window"
+@@ -5747,8 +5747,8 @@
+ msgstr ""
+ "Wine ve önceden açık olan uygulamaların pencerelerini düzgünce tam ekran yap."
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "Metacity ile ilgili hızlı çözümler."
++msgid "Marco-like workarounds."
++msgstr "Marco ile ilgili hızlı çözümler."
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "Uyarıcı Servisi Hatasının Çözümü"
+--- a/po/zh_CN.po	2012-10-05 23:14:18.554770707 +0200
++++ b/po/zh_CN.po	2012-10-05 14:29:58.643487716 +0200
+@@ -3242,8 +3242,8 @@
+ msgid "Debug"
+ msgstr "调试"
+ 
+-msgid "Display errors and other messages using libnotify."
+-msgstr "使用libnotify来显示错误和其他信息。"
++msgid "Display errors and other messages using libmatenotify."
++msgstr "使用libmatenotify来显示错误和其他信息。"
+ 
+ msgid "Error"
+ msgstr "错误"
+@@ -3620,8 +3620,8 @@
+ msgid "Color of text on resize popup."
+ msgstr "弹出的改变大小窗口的文本颜色。"
+ 
+-msgid "Display info on resize similar to metacity"
+-msgstr "类似metacity般显示改变窗口大小的信息"
++msgid "Display info on resize similar to marco"
++msgstr "类似marco般显示改变窗口大小的信息"
+ 
+ msgid "Fade time (in ms) for popup window"
+ msgstr "弹出窗口的淡入淡出时间(微妙)"
+@@ -5611,8 +5611,8 @@
+ msgid "Make Wine and legacy applications fullscreen properly."
+ msgstr "使Wine和旧式程序正确地全屏。"
+ 
+-msgid "Metacity-like workarounds."
+-msgstr "类metacity的工作区。"
++msgid "Marco-like workarounds."
++msgstr "类marco的工作区。"
+ 
+ msgid "Notification Daemon Fix"
+ msgstr "通知守护进程修正"
