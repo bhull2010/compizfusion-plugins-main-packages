@@ -11,7 +11,7 @@ DEBDIR  := $(CURDIR)/debian
 PKGDIR  := $(DEBDIR)/$(PACKAGE)
 
 # Detect which package is provided by compiz-core:
-COMPIZCORE_DEPENDS := $(shell dpkg-query --showformat='$${Provides}\n' -W compiz-core)
+COMPIZCORE_DEPENDS := $(shell dpkg-query --showformat='$${Provides}\n' -W compizfusion-core)
 
 
 %:

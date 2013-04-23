@@ -4,7 +4,7 @@ Maintainer: Local User <user@localhost>
 Uploaders: Sean Finney <seanius@debian.org>, Jasmine Hassan <jasmine.aura@gmail.com>
 Build-Depends:  debhelper (>= 7.0.50~), dh-autoreconf, intltool,
  compizfusion-dev (>= 0.8.8), compizfusion-bcop (>= 0.8.8), libdecorationfusion0-dev (>= 0.8.8),
- libglib2.0-dev, libglu1-mesa-dev, libjpeg62-dev,
+ libglib2.0-dev, libglu1-mesa-dev, libjpeg-dev,
  libxml2-dev, libxslt1-dev, pkg-config, xsltproc, libcairo2-dev, libpango1.0-dev, 
  librsvg2-dev, libsm-dev,
  hardening-wrapper,
@@ -14,6 +14,7 @@ Section: x11
 Package: compizfusion-plugins-main
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${compizcore:Depends}
+Conflicts: compiz-plugins-main
 Description: Compiz Fusion plugins - main collection
  Compiz Fusion is the result of the re-unification of the Beryl-project
  and the community around the Compiz Window Manager. It seeks to provide
