@@ -3,7 +3,6 @@ usr/share/compiz/*.xml
 usr/share/compiz/filters
 usr/share/compiz/Default
 usr/share/compiz/Oxygen
-usr/share/mateconf/schemas/compiz-*.schemas
 usr/lib/compiz/*.so
 usr/lib/pkgconfig/*.pc
 usr/include/compiz

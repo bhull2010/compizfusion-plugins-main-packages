@@ -29,7 +29,7 @@ override_dh_autoreconf:
 
 override_dh_auto_configure:
 	dh_auto_configure -- --prefix=/usr --sysconfdir=\$${prefix}/share \
-		--enable-maintainer-mode --disable-static --enable-schemas
+		--enable-maintainer-mode --disable-static
 
 override_dh_clean:
 	[ ! -f Makefile ] || $(MAKE) distclean
@@ -40,7 +40,6 @@ override_dh_clean:
 
 override_dh_install:
 	# remove kdecompat plugin
-	rm -f $(PKGDIR)/usr/share/mateconf/schemas/compiz-kdecompat.schemas
 	rm -f $(PKGDIR)/usr/share/compiz/kdecompat.xml
 	rm -f $(PKGDIR)/usr/lib/compiz/libkdecompat.so
 	# clean up some upstream cruft

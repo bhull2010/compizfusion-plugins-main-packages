@@ -1,17 +1,17 @@
-Source: compiz-plugins-main
+Source: compizfusion-plugins-main
 Priority: extra
-Maintainer: Jasmine Hassan <jasmine.aura@gmail.com>
-Uploaders: Sean Finney <seanius@debian.org>
+Maintainer: Local User <user@localhost>
+Uploaders: Sean Finney <seanius@debian.org>, Jasmine Hassan <jasmine.aura@gmail.com>
 Build-Depends:  debhelper (>= 7.0.50~), dh-autoreconf, intltool,
- compiz-dev (>= 0.8.8), compiz-fusion-bcop (>= 0.8.8), libdecoration0-dev (>= 0.8.8),
- libmateconf-dev, libglib2.0-dev, libglu1-mesa-dev, libjpeg62-dev, 
+ compizfusion-dev (>= 0.8.8), compizfusion-bcop (>= 0.8.8), libdecorationfusion0-dev (>= 0.8.8),
+ libglib2.0-dev, libglu1-mesa-dev, libjpeg62-dev,
  libxml2-dev, libxslt1-dev, pkg-config, xsltproc, libcairo2-dev, libpango1.0-dev, 
- librsvg2-dev, libsm-dev, libdbus-1-dev,
+ librsvg2-dev, libsm-dev,
  hardening-wrapper,
 Standards-Version: 3.9.3
 Section: x11
 
-Package: compiz-fusion-plugins-main
+Package: compizfusion-plugins-main
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${compizcore:Depends}
 Description: Compiz Fusion plugins - main collection
