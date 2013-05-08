@@ -10,10 +10,10 @@ endif
 
 BUILT_SOURCES = $(nodist_libscaleaddon_la_SOURCES)
 
-INCLUDES =                              \
-	-I$(top_srcdir)/include         \
-	@COMPIZ_CFLAGS@                  \
-	@SCALE_CFLAGS@                   \
+AM_CPPFLAGS =                           \
+	-I$(top_srcdir)/include             \
+	@COMPIZ_CFLAGS@                     \
+	@SCALE_CFLAGS@                      \
 	-DDATADIR='"$(compdatadir)"'        \
 	-DLIBDIR='"$(libdir)"'              \
 	-DLOCALEDIR="\"@datadir@/locale\""  \

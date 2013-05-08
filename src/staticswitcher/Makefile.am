@@ -9,9 +9,9 @@ dist_libstaticswitcher_la_SOURCES = staticswitcher.c
 
 BUILT_SOURCES = $(nodist_libstaticswitcher_la_SOURCES)
 
-INCLUDES =                              \
-	-I$(top_srcdir)/include         \
-	@COMPIZ_CFLAGS@                  \
+AM_CPPFLAGS =                           \
+	-I$(top_srcdir)/include             \
+	@COMPIZ_CFLAGS@                     \
 	-DDATADIR='"$(compdatadir)"'        \
 	-DLIBDIR='"$(libdir)"'              \
 	-DLOCALEDIR="\"@datadir@/locale\""  \

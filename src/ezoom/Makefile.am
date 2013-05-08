@@ -8,10 +8,10 @@ dist_libezoom_la_SOURCES = ezoom.c
 
 BUILT_SOURCES = $(nodist_libezoom_la_SOURCES)
 
-INCLUDES =                              \
-	-I$(top_srcdir)/include         \
-	@COMPIZ_CFLAGS@                  \
-	-DDATADIR='"$(datadir)"'          \
+AM_CPPFLAGS =                           \
+	-I$(top_srcdir)/include             \
+	@COMPIZ_CFLAGS@                     \
+	-DDATADIR='"$(datadir)"'            \
 	-DLIBDIR='"$(libdir)"'              \
 	-DLOCALEDIR="\"@datadir@/locale\""  \
 	-DIMAGEDIR='"$(imagedir)"'          

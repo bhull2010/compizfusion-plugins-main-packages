@@ -8,9 +8,9 @@ dist_libshift_la_SOURCES = shift.c
 
 BUILT_SOURCES = $(nodist_libshift_la_SOURCES)
 
-INCLUDES =                              \
-	-I$(top_srcdir)/include         \
-	@COMPIZ_CFLAGS@                  \
+AM_CPPFLAGS =                           \
+	-I$(top_srcdir)/include             \
+	@COMPIZ_CFLAGS@                     \
 	-DDATADIR='"$(compdatadir)"'        \
 	-DLIBDIR='"$(libdir)"'              \
 	-DLOCALEDIR="\"@datadir@/locale\""  \

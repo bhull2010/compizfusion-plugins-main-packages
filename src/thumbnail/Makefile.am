@@ -10,9 +10,9 @@ dist_libthumbnail_la_SOURCES = thumbnail.c \
 
 BUILT_SOURCES = $(nodist_libthumbnail_la_SOURCES)
 
-INCLUDES =                              \
-	-I$(top_srcdir)/include         \
-	@COMPIZ_CFLAGS@                  \
+AM_CPPFLAGS =                           \
+	-I$(top_srcdir)/include             \
+	@COMPIZ_CFLAGS@                     \
 	-DDATADIR='"$(compdatadir)"'        \
 	-DLIBDIR='"$(libdir)"'              \
 	-DLOCALEDIR="\"@datadir@/locale\""  \

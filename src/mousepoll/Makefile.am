@@ -5,9 +5,9 @@ libmousepoll_la_LDFLAGS = $(PFLAGS)
 libmousepoll_la_LIBADD = @COMPIZ_LIBS@
 libmousepoll_la_SOURCES = mousepoll.c
 
-INCLUDES =                              \
-	-I$(top_srcdir)/include         \
-	@COMPIZ_CFLAGS@                  \
+AM_CPPFLAGS =                           \
+	-I$(top_srcdir)/include             \
+	@COMPIZ_CFLAGS@                     \
 	-DDATADIR='"$(compdatadir)"'        \
 	-DLIBDIR='"$(libdir)"'              \
 	-DLOCALEDIR="\"@datadir@/locale\""  \

@@ -11,13 +11,11 @@ dist_libcolorfilter_la_SOURCES = colorfilter.c \
 
 BUILT_SOURCES = $(nodist_libcolorfilter_la_SOURCES)
 
-BUILT_SOURCES = $(nodist_libcolorfilter_la_SOURCES)
-
-INCLUDES =                              \
-	-I$(top_srcdir)/include		\
-	@COMPIZ_CFLAGS@                  \
-	-DDATADIR='"$(compdatadir)"'       \
-	-DPREFIX='"$(prefix)"'             \
+AM_CPPFLAGS =                           \
+	-I$(top_srcdir)/include	            \
+	@COMPIZ_CFLAGS@                     \
+	-DDATADIR='"$(compdatadir)"'        \
+	-DPREFIX='"$(prefix)"'              \
 	-DLIBDIR='"$(libdir)"'              \
 	-DLOCALEDIR="\"@datadir@/locale\""  \
 	-DIMAGEDIR='"$(imagedir)"'          
